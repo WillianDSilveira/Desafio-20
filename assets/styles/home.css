@@ -1,0 +1,57 @@
+/**** HOME ****/
+
+section.home{
+    position: relative;
+    display: flex;    
+    background: var(--dark);
+    padding-top: 10.9rem;
+    height: 62.5rem;
+}
+
+section.home .container.grid{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    width: 90%;    
+    height: 100%;    
+} 
+
+section.home .logo{
+    display: flex;
+    justify-content: center;    
+    position: absolute;    
+    bottom: 0;
+    right: 0;          
+}
+
+section.home .logo img{
+    width: 90%; 
+    height: 100%;
+    
+}
+
+section.home .home.content h1{
+    color: var(--blue);
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 7.7rem;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+
+section.home .home.content p{
+    text-align: justify;
+    text-transform: uppercase;
+    color: var(--light);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+}
+
+section.home .buttons{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 1.8rem; 
+    padding-top: 6.0rem;    
+}

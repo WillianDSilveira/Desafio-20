@@ -1,0 +1,79 @@
+.container{    
+    width: 100vw;
+    max-width: 120rem;
+    margin: auto;
+    /* border: 1px solid yellow; */
+}
+
+/* .vortex{
+    cursor: pointer;    
+}
+ */
+
+.vortex linearGradient stop:nth-child(1){
+     animation: color 5s linear infinite;
+}
+
+@keyframes color {
+    0%{
+        stop-color: #FF1CF7;;
+    }
+    25%{
+        stop-color: #00F0FF;
+    }
+    50%{
+        stop-color: #00F0FF;
+    }
+    100%{
+        stop-color: #FF1CF7;
+    }
+}
+
+.vortex linearGradient stop:nth-child(2){
+    animation: twocolor 5s linear infinite;
+}
+
+@keyframes twocolor {
+    0%{
+        stop-color: #00F0FF;
+    }
+    25%{
+        stop-color: #FF1CF7;
+    }
+    50%{
+        stop-color: #FF1CF7;
+    }
+    100%{
+        stop-color: #00F0FF;
+    }    
+}
+
+.vortex path:nth-child(even){
+    animation: mover 6s infinite;  
+    animation-delay: 1s;
+}
+
+.vortex path:nth-child(odd){
+    animation: mover 6s infinite;  
+    animation-delay: 1s;
+}
+
+
+
+  
+@keyframes mover{
+    0%{
+        transform: rotateZ(1deg);
+        transform: rotateX(0deg);         
+
+    }
+    50%{
+        transform: rotateZ(0deg); 
+        transform: rotateX(20deg);       
+
+    }
+    100%{
+        transform: rotateZ(1deg);
+        transform: rotateX(0deg);        
+    }
+}

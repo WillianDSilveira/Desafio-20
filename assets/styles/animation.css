@@ -1,0 +1,63 @@
+.vortex path:nth-child(odd){
+    -webkit-animation: evenmover 1.5s linear infinite;
+    animation: evenmover 6s linear infinite;  
+    animation-delay: 100ms;
+    
+
+}
+@keyframes evenmover {
+    0%{
+        transform: skew(-1deg, -1deg);
+    }
+    50%{
+        transform: skew(0);
+        transform: rotateY(1deg);
+        transform: rotateZ(-1deg);
+    }
+    100%{
+        transform: skew(-1deg, -1deg);
+    }
+}
+
+.vortex path:nth-child(even){
+    -webkit-animation: oddmover 1.5s linear infinite;
+    animation: oddmover 6s linear infinite;  
+    animation-delay: 200ms;
+    
+
+}
+@keyframes oddmover {
+    0%{
+        transform: skew(-1deg, -1deg);
+    }
+    50%{
+        transform: skew(0);
+        transform: rotateY(-1deg);
+        transform: rotateZ(1deg);
+    }
+    100%{
+        transform: skew(-1deg, -1deg);
+    }
+}
+
+.vortex path:nth-child(2n+3){
+    -webkit-animation: mover 1.5s linear infinite;
+    animation: mover 6s linear infinite;  
+    animation-delay: 100ms;
+    
+}
+
+ 
+@keyframes mover {
+    0%{
+        transform: skew(0);
+    }
+    50%{
+        transform: skew(-1deg, -1deg);
+        transform: rotateX(1deg);
+        transform: rotateZ(-1deg);
+    }
+    100%{
+        transform: skew(0);
+    }
+}

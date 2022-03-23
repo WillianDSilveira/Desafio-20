@@ -1,0 +1,27 @@
+* {
+    /*====  RESET ============================ */
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/**** GLOBAL ****/
+:root{
+    --blue: #00D2DF;
+    --gradient-pink: linear-gradient(150deg,#D24074, #6518B4);
+    --gradient-purple: linear-gradient(45deg, #9358F7, #10D7E2);
+    
+    --dark: #0C0C0C;
+    --dark-200: #121212;
+    --gray-light: #c4c4c4;
+    --white: #ffffff; 
+}
+ 
+html{
+    font-family: 'Inter', sans-serif; 
+    font-size: 62.5%;
+    font-style: normal;
+}

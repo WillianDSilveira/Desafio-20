@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="/assets/styles/global.css">
+    <link rel="stylesheet" href="/assets/styles/elements.css">
+    <link rel="stylesheet" href="/assets/styles/buttons.css">
+    <link rel="stylesheet" href="/assets/styles/menu.css">
+    <link rel="stylesheet" href="/assets/styles/home.css">
+    <link rel="stylesheet" href="/assets/styles/sobre.css">
+    <link rel="stylesheet" href="/assets/styles/experience.css">
+    <link rel="stylesheet" href="/assets/styles/projects.css">
+    <link rel="stylesheet" href="/assets/styles/footer.css">
+
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+    <title>Portfólio Willian Silveira</title>
+</head>
+
+<body>
+    <header class="menu">
+        <div class="container">
+            <a class="portfolio" href="#">Portfólio</a>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Sobre">Sobre mim</a></li>
+                    <li><a href="#Experience">Experiência</a></li>
+                    <li><a href="#Projetos">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="Home" class="home">
+        <div class="container grid">
+            <div class="home content">
+                <h2>olá eu sou</h2>
+                <h1>WILLIAN DALFERTH</h1>
+                <h2>Desenvolvedor Frontend e Ui Designer.</h2>
+                <div class="buttons">
+                    <a class="btn purple" id="github" href="#">
+                        <span>
+                            <img src="/assets/img/linkedin.svg" alt="GitHub">
+                            Linkedin
+                        </span>
+                    </a>
+                    <a class="btn pink" id="github" href="#">
+                        <span>
+                            <img src="/assets/img/github.svg" alt="GitHub">
+                            GitHub
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="logo">
+                <img class="looper" src="/assets/img/LooperBG.svg" onload="fetchSvg(this)" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="Sobre" class="about">
+        <div class="container grid">
+            <div class="foto">
+                <img src="/assets/img/Foto.svg" alt="Foto do Dev">
+            </div>
+            <div class="about content">
+                <div class="text">
+                    <h2>SOBRE MIM</h2>
+                    <h3>Gurantã, Brasil</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ea nostrum facilis voluptatem
+                        maiores distinctio? Quisquam earum labore, ipsa excepturi molestias accusantium eius enim dolor
+                        quod eligendi, aspernatur nostrum facilis.</p>
+                </div>
+                <div class="social">
+                    <img src="/assets/img/twitter.svg" alt="twitter">
+                    <img src="/assets/img/twitch.svg" alt="twitch">
+                    <img src="/assets/img/youtube.svg" alt="youtube">
+                    <img src="/assets/img/figma.svg" alt="figma">
+                    <img src="/assets/img/codepen.svg" alt="cadepen">
+                    <img src="/assets/img/facebook.svg" alt="facebook">
+                </div>
+                <div class="buttons">
+                    <a class="btn pink" id="Curriculo" href="#">
+                        <span>
+                            <img src="/assets/img/curriculo.svg" alt="Curriculo">
+                            Currículo
+                        </span>
+                    </a>
+                    <a class="btn purple" id="Email" href="#">
+                        <span>
+                            <img src="/assets/img/email.svg" alt="Email">
+                            Email
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Experience" class="experience">
+        <div class="container grid">
+            <div class="list">
+                <h2>Experiência</h2>
+                <div>
+                    <ul>
+                        <li><a href="#">Digital House</a></li>
+                        <li><a href="#">Código Fonte</a></li>
+                        <li><a href="#">Zuplae</a></li>
+                        <li><a href="#">ContWeb</a></li>
+                        <li><a href="#">iuricode</a></li>
+                        <li><a href="#">Freelancer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="description">
+                <div class="title">
+                    <h2>Professor Conteudista em FrontEnd</h2>
+                    <span>Nove 2021 - Atual</span>
+                </div>
+                <div class="text">
+                    <h3>Digital House</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt hic recusandae debitis
+                        consequuntur excepturi a quae veniam suscipit impedit quo commodi voluptatem est ipsum saepe
+                        blanditiis illum iusto, libero deleniti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projetos" class="projects">
+        <div class="container grid">
+            <h2>Projetos</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/Foto.svg" alt="">
+                    </div>
+                    <h3>Nome do projeto</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis iusto nemo
+                        velit sapiente autem ad maiores nisi expedita.</p>
+                    <h4>Tecnologias</h4>
+                    <div class="button">
+                        <a class="btn purple" href="">
+                            <span>
+                                <img src="assets/img/view.svg" alt="">
+                                Visualisar
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/Foto.svg" alt="">
+                    </div>
+                    <h3>Nome do projeto</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis iusto nemo
+                        velit sapiente autem ad maiores nisi expedita.</p>
+                    <h4>Tecnologias</h4>
+                    <div class="button">
+                        <a class="btn purple" href="">
+                            <span>
+                                <img src="assets/img/view.svg" alt="">
+                                Visualisar
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/Foto.svg" alt="">
+                    </div>
+                    <h3>Nome do projeto</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis iusto nemo
+                        velit sapiente autem ad maiores nisi expedita.</p>
+                    <h4>Tecnologias</h4>
+                    <div class="button">
+                        <a class="btn purple" href="">
+                            <span>
+                                <img src="assets/img/view.svg" alt="">
+                                Visualisar
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/Foto.svg" alt="">
+                    </div>
+                    <h3>Nome do projeto</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati blanditiis iusto nemo
+                        velit sapiente autem ad maiores nisi expedita.</p>
+                    <h4>Tecnologias</h4>
+                    <div class="button">
+                        <a class="btn purple" href="">
+                            <span>
+                                <img src="assets/img/view.svg" alt="">
+                                Visualisar
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><span>@2022 - Willian Dalferth</span></p>
+            <a href="#">
+                <span>
+                    Powerred by 
+                    <img src="assets/img/Vector.svg" alt="vetor">                   
+                </span>
+            </a>
+        </div>
+    </footer>
+    <script>
+        const fetchSvg = (image) => {
+            fetch(image.src)
+                .then((response) => response.text())
+                .then((response) => {
+                    const span = document.createElement('span');
+                    span.innerHTML = response;
+                    const inlineSvg = span.getElementsByTagName('svg')[0];
+                    image.parentNode.replaceChild(inlineSvg, image);
+                    return true
+                });
+        };
+
+        const path = document.getElementsByTagName('path');
+        
+
+    </script>
+</body>
+
+</html>

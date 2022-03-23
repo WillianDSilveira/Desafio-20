@@ -1,0 +1,57 @@
+section.projects {
+    background: var(--dark-200);
+    width: 100%;
+    height: 132.5rem;    
+}
+
+
+section.projects h2{
+    padding-top: 10rem;
+}
+
+section.projects .cards{
+    width: 100%;    
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    flex-wrap: wrap;
+}
+
+section.projects .card{
+    float: left;
+    padding: 8rem 0;
+    display: flex; 
+    max-width: 53rem;
+    max-height: 53rem;    
+    flex-direction: column;       
+}
+section.projects .card-img{       
+    width: 53rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white; 
+}
+
+section.projects .card-img img{
+    width: 100%;
+    height: 100%;   
+}
+
+
+section.projects .card h3{    
+    padding-top: 4rem;
+}
+section.projects .card h4,
+section.projects .card p{
+    padding: 3rem 0;
+}
+
+section.projects .card h4{
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 0;
+}
