@@ -1,21 +1,19 @@
 /**** ABOUT ****/
-section.about{    
-    width: 100%; 
-    height: 56.5rem;  
+.about{    
+    height: auto;  
     background: var(--dark-200);
 }
 
-section.about .container.grid{    
+.about .container{    
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;   
-     
+    justify-content: center; 
+    gap: 16rem;
+
 }
 
-section.about .foto{
+.about .foto{
     width: 36.7rem;
     height: 36.7rem;
     display: flex;
@@ -23,28 +21,28 @@ section.about .foto{
     justify-content: center;   
     background: var(--dark);
     border-left: 2px solid var(--blue);
-
 }
 
 
-section.about .about.content{
+.about .content{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 100%;
-    height: 100%;   
+    width: 90%;
+    height: auto;   
     flex-direction: column; 
-    padding-left: 16rem;
-    
+        
 }
-section.about .text h3{
+
+
+.about .text h3{
     padding-top: 3.2rem;
     padding-bottom: 2rem;   
     font-size: 2rem;
     line-height: 2.4rem;
 }
 
-section.about .social{
+.about .social{
     display: flex;   
     
     padding-top: 4rem;
@@ -52,7 +50,7 @@ section.about .social{
     gap: 3.2rem;
     
 }
-section.about .buttons{
+.about .buttons{
     display: flex;    
     gap: 4rem;   
 }

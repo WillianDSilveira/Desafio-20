@@ -1,54 +1,41 @@
-section.projects {
-    background: var(--dark-200);
-    width: 100%;
-    height: 132.5rem;    
+.projects {
+    background: var(--dark-200);    
+    height: auto;       
 }
 
 
-section.projects h2{
-    padding-top: 10rem;
-}
-
-section.projects .cards{
-    width: 100%;    
-    height: 100%;
+.projects .cards{    
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(53rem, auto));   
+      
 }
 
-section.projects .card{
-    float: left;
-    padding: 8rem 0;
+.projects .card{
+    padding: 6rem 1rem;
     display: flex; 
-    max-width: 53rem;
-    max-height: 53rem;    
-    flex-direction: column;       
-}
-section.projects .card-img{       
-    width: 53rem;
-    height: 20rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white; 
+    flex-direction: column; 
+    width: 90%;     
+    margin: auto; 
+    gap: 3rem 0;     
+   
 }
 
-section.projects .card-img img{
+.projects .img{
     width: 100%;
-    height: 100%;   
+    height: 100%;        
+    border-left: 4px solid var(--blue);
 }
 
-
-section.projects .card h3{    
-    padding-top: 4rem;
-}
-section.projects .card h4,
-section.projects .card p{
-    padding: 3rem 0;
+.projects .img img{
+    max-width: 53rem;
+    max-height: 20rem;    
 }
 
-section.projects .card h4{
+.projects p{
+    width: 90%;
+}
+
+.projects .card h4{
     color: var(--blue);
     font-weight: 500;
     font-size: 14px;

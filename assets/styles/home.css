@@ -1,54 +1,40 @@
 /**** HOME ****/
 
-section.home{
-    position: relative;
-    display: flex;    
+.home{       
     background: var(--dark);
-    padding-top: 10.9rem;
-    height: 62.5rem;
 }
 
-section.home .container.grid{    
+.home .container{    
     display: flex;
     align-items: center;
     justify-content: space-between;   
-    width: 90%;    
-    height: 100%;    
+    height: 73.4rem;
+    position: relative;
+    
 } 
+.home .content{
+    z-index: 1;
+}
 
-section.home .logo{
-    display: flex;
-    justify-content: center;    
+.home .logo{      
     position: absolute;    
     bottom: 0;
-    right: 0;          
+    right: 0;  
+            
 }
 
-section.home .logo img{
-    width: 90%; 
-    height: 100%;
-    
-}
-
-section.home .home.content h1{
+.home .content h1{
+    position: relative;
     color: var(--blue);
     font-size: 6.4rem;
     font-weight: 600;
     line-height: 7.7rem;
     text-transform: uppercase;
     padding: 12px 0;
+    
 }
 
-section.home .home.content p{
-    text-align: justify;
-    text-transform: uppercase;
-    color: var(--light);
-    font-size: 2.4rem;
-    font-weight: 600;
-    line-height: 2.9rem;
-}
-
-section.home .buttons{
+.home .buttons{
     display: flex;
     align-items: center;
     justify-content:flex-start;
