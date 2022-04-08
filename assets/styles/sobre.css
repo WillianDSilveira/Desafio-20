@@ -14,15 +14,21 @@
 }
 
 .about .foto{
-    width: 36.7rem;
-    height: 36.7rem;
+    width: 36rem;    
+    height: 36rem;
+
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
+
     background: var(--dark);
     border-left: 2px solid var(--blue);
 }
 
+.about .foto img{
+    width: 100%;
+    height: 100%;
+}
 
 .about .content{
     display: flex;

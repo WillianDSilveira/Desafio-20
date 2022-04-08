@@ -30,17 +30,25 @@
 
   <body>
     <header class="menu">
+      
       <div class="container">
         <a class="portfolio" href="#">Portfólio</a>
-        <nav>
-          <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Sobre">Sobre mim</a></li>
-            <li><a href="#Experience">Experiência</a></li>
-            <li><a href="#Projetos">Projetos</a></li>
-            <li><a href="#Contato">Contato</a></li>
-          </ul>
-        </nav>
+        <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Sobre">Sobre mim</a></li>
+              <li><a href="#Experience">Experiência</a></li>
+              <li><a href="#Projetos">Projetos</a></li>
+              <li><a href="#Contato">Contato</a></li>
+            </ul>
+          </nav>
+        </div>        
       </div>
     </header>
 
@@ -295,20 +303,7 @@
         </a>
       </div>
     </footer>
-    <script>
-      const fetchSvg = (image) => {
-        fetch(image.src)
-          .then((response) => response.text())
-          .then((response) => {
-            const span = document.createElement("span");
-            span.innerHTML = response;
-            const inlineSvg = span.getElementsByTagName("svg")[0];
-            image.parentNode.replaceChild(inlineSvg, image);
-            return true;
-          });
-      };
-
-      /* const path = document.getElementsByTagName('path'); */
-    </script>
+    <script src="animation.js"></script>
+    <script src="menu.js"></script>
   </body>
 </html>
