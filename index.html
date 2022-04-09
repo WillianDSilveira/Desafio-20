@@ -254,28 +254,25 @@
     </section>
 
     <section id="Contato" class="contact">
-      <form action="" class="container">
+      <form action="https://api.staticforms.xyz/submit" method="post" class="container">
+        <input type="hidden" name="accessKey" value="1edb1dfb-e296-4547-877a-b9d37475a8dd">
         <div class="form">
           <h2>Contato</h2>
           <div class="group">
-            <label for="Nome">Nome:</label>
-            <input type="text" />
+            <label for="inputNome">Nome:</label>
+            <input type="text" id="inputNome" name="name" />
           </div>
           <div class="group">
-            <label for="Email">Email:</label>
-            <input type="email" />
+            <label for="inputEmail">Email:</label>
+            <input type="email" id="inputEmail" name="email" />
           </div>
           <div class="group">
             <label for="Mensagem">Mensagem:</label>
-            <textarea name="Mensagem" id="" cols="30" rows="10"></textarea>
+            <textarea name="message" id="textAreaMensagem" cols="30" rows="10"></textarea>
           </div>
+
           <div class="group button">
-            <a class="btn purple" id="enviar" href="#">
-              <span>
-                <img src="/assets/img/Enviar.svg" alt="Enviar" />
-                Enviar
-              </span>
-            </a>
+            <button class="btn purple" value="">Enviar</button>       
           </div>
         </div>
         <div class="LogoTriade">
@@ -291,7 +288,6 @@
         </div>
       </form>
     </section>
-
     <footer>
       <div class="container">
         <p><span>@2022 - Willian Dalferth</span></p>
