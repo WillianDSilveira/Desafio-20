@@ -93,7 +93,8 @@
 
 
 
-@media (max-width: 920px){
+@media (max-width: 1025px){
+    
     .experience .container,
     .about .container{
         display: flex;
@@ -129,24 +130,28 @@
 
 }
 
-@media (max-width: 730px){
+
+@media (max-width: 769px){
     html{
         font-size: 50%;
     }
     .projects .cards{
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    }   
+    }
+    
+    .contact input,
+    .contact textarea{
+        width: 100%;
+    }
+
+    .home .container{
+        justify-content: center;
+    }
 
     
-}
-
-@media (max-width: 540px){
-    .home .logo{ 
-        top: 50%;
-        left: 0;
-    }
     nav{
         display: none;
+        
     }
 
     .one,
@@ -228,3 +233,5 @@
     }
 
 }
+
+
