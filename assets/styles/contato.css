@@ -42,8 +42,9 @@
   border-radius: 4px;
   margin: 1.6rem auto;
   padding: 1.5rem 2rem;
-  background: var(--dark-200);
-  color: var(--white);
+  resize: none;
+  /* background: var(--dark-200);
+  color: var(--white); */
 }
 
 .contact .group.button {

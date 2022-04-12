@@ -29,6 +29,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .container{    
@@ -36,5 +37,5 @@ body{
     height: auto;
     max-width: 1400px;
     margin: auto;
-    padding: 8rem 0;    
+    padding: 12rem 0;    
 }

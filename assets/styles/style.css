@@ -117,7 +117,8 @@
         flex-direction: column;
     }
 
-    .contact .form{
+    .contact .form,
+    .contact .group{        
         width: 100%;
     }
 
