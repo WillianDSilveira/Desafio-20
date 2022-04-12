@@ -30,19 +30,47 @@
     height: 100%;
 }
 
-.home .content h1{
-    position: relative;
-    color: var(--blue);
-    font-size: 6.4rem;
-    font-weight: 600;
-    line-height: 7.7rem;
-    text-transform: uppercase;
-    padding: 12px 0;
-    
-}
-
 .home .buttons{
     display: flex;
     gap: 1.8rem; 
     padding-top: 6.0rem;    
+}
+
+.home .content h1{
+    position: relative;   
+
+    color: var(--blue) ;
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 7rem;
+    text-transform: uppercase;
+    
+    border-right: 2px solid var(--blue);    
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 100%;
+
+    }
+}
+
+@keyframes blinkCursor{
+    from {
+        border-right-color: 2px solid var(--blue);
+    }
+    to {
+        border-right-color: transparent;
+    }
 }
