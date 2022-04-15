@@ -36,41 +36,37 @@
     padding-top: 6.0rem;    
 }
 
+.home .apresentation{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .home .content h1{
-    position: relative;   
+    position: relative;
 
     color: var(--blue) ;
     font-size: 6.4rem;
     font-weight: 600;
     line-height: 7rem;
-    text-transform: uppercase;
-    
-    border-right: 2px solid var(--blue);    
-    white-space: nowrap;
-    overflow: hidden;
-    
+    text-transform: uppercase;     
+
 }
 
-.typing-animation {
-    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s;
-}
+.home .content h1::after{
+    content: '|';
+    font-weight: 100;    
+    margin-left: 2px;
+    opacity: 1;
+    animation: blink .7s infinite;
 
-@keyframes typing{
-    from{
-        width: 0;
+}  
 
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
     }
-    to{
-        width: 100%;
-
-    }
-}
-
-@keyframes blinkCursor{
-    from {
-        border-right-color: 2px solid var(--blue);
-    }
-    to {
-        border-right-color: transparent;
+    50% {
+        opacity: 0;
     }
 }

@@ -93,8 +93,7 @@
 
 
 
-@media (max-width: 1025px){
-    
+@media (max-width: 1025px){    
     .experience .container,
     .about .container{
         display: flex;
