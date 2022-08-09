@@ -13,22 +13,17 @@
 
 }
 
-.about .foto{
-    width: 36rem;    
-    height: 36rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: var(--dark);
-    border-left: 2px solid var(--blue);
-}
-
 .about .foto img{
-    width: auto;
-    height: auto;
+    width: 100%;
 }
+
+.about .foto{
+    
+    clip-path: circle(39%);
+    
+}
+
+
 
 .about .content{
     display: flex;
@@ -58,5 +53,7 @@
 }
 .about .buttons{
     display: flex;    
-    gap: 4rem;   
+    gap: 4rem;
+    
+    padding-top: 5rem;
 }

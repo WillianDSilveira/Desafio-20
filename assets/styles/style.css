@@ -106,11 +106,6 @@
         flex-direction: column;
     }
 
-    .projects .card p{
-        max-width: 20rem;
-        word-wrap: break-word;
-    }
-
     .contact .container{
         display: flex;
         align-items: center;
@@ -229,6 +224,10 @@
         align-items: center;
         justify-content: center;
         
+    }
+
+    .btn{
+        width: 90vw;
     }
 
 }

@@ -1,5 +1,5 @@
 .projects {
-    background: var(--dark-200);    
+    background: var(--dark);    
     height: auto;       
 }
 
@@ -26,13 +26,26 @@
    
 }
 
-.projects .img{            
+.projects .img img{
+  width: 100%; 
+   
+}
+.projects .img{ 
+    width: 53rem;
+    height: 20rem;
+    max-width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+
+    background: var(--dark-200);
     border-left: 4px solid var(--blue);
+    color: var(--white); 
 }
 
-.projects .img img{
-  width: 100%;   
-}
 
 .projects p{
     width: 90%;
